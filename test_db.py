@@ -18,6 +18,7 @@ class TestContactBook(unittest.TestCase):
             email TEXT
         )
         """)
+        
         self.test_conn.commit()
 
     def test_add_contact(self):
